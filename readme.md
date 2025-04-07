@@ -35,11 +35,11 @@ Together, these components create a beautifully balanced productivity system, ea
 
 ```mermaid
 flowchart TD
-    user[👤 User (You)] -->|Natural Chat| claude[☀️ Claude AI<br>(Desktop + MCP)]
-    claude -->|MCP Integration| notion[🌍 Notion<br>(Docs & Notes)]
-    claude -->|MCP Integration| airtable[🪐 Airtable<br>(Tasks & Data)]
-    claude -->|MCP Integration| qdrant[🌠 Qdrant<br>(Semantic Memory)]
-    claude -->|MCP Integration| brave[🌌 Brave Search<br>(Web Discovery)]
+    user[User (You)] -->|Natural Chat| claude[Claude AI<br>(Desktop + MCP)]
+    claude -->|MCP Integration| notion[Notion<br>(Docs & Notes)]
+    claude -->|MCP Integration| airtable[Airtable<br>(Tasks & Data)]
+    claude -->|MCP Integration| qdrant[Qdrant<br>(Semantic Memory)]
+    claude -->|MCP Integration| brave[Brave Search<br>(Web Discovery)]
 ```
 
 In practice:
@@ -184,4 +184,4 @@ Asteria is available under the [MIT License](LICENSE)—empowering you to freely
 
 ---
 
-✨ **Let your productivity shine bright with Asteria!** ✨
+**Let your productivity shine bright with Asteria!** ✨
