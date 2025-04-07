@@ -34,12 +34,12 @@ Together, these components create a beautifully balanced productivity system, ea
 ## 🌠 How Does it Work? (High-Level)
 
 ```mermaid
-flowchart TD
-    user[User (You)] -->|Natural Chat| claude[Claude AI<br>(Desktop + MCP)]
-    claude -->|MCP Integration| notion[Notion<br>(Docs & Notes)]
-    claude -->|MCP Integration| airtable[Airtable<br>(Tasks & Data)]
-    claude -->|MCP Integration| qdrant[Qdrant<br>(Semantic Memory)]
-    claude -->|MCP Integration| brave[Brave Search<br>(Web Discovery)]
+graph TD
+    user["User (You)"] -->|"Natural Chat"| claude["Claude AI (Desktop + MCP)"]
+    claude -->|"MCP Integration"| notion["Notion (Docs & Notes)"]
+    claude -->|"MCP Integration"| airtable["Airtable (Tasks & Data)"]
+    claude -->|"MCP Integration"| qdrant["Qdrant (Semantic Memory)"]
+    claude -->|"MCP Integration"| brave["Brave Search (Web Discovery)"]
 ```
 
 In practice:
@@ -90,24 +90,17 @@ In practice:
 **📝 Example Scenario:** _"Summarize the status of the Apollo project this week."_
 
 ```mermaid
-sequenceDiagram
-    participant user as User
-    participant claude as Claude
-    participant airtable as Airtable
-    participant notion as Notion
-    participant qdrant as Qdrant
-    participant brave as Brave
-
-    user->>claude: Summarize this week's status for Apollo project.
-    claude->>airtable: Fetch this week's tasks and their status.
-    airtable-->>claude: Provides tasks data.
-    claude->>notion: Retrieve recent project notes.
-    notion-->>claude: Provides project notes content.
-    claude->>qdrant: Retrieve related stored insights on Apollo.
-    qdrant-->>claude: Provides relevant memory insights.
-    claude->>notion: Save summarized weekly status.
-    notion-->>claude: Confirms update.
-    claude-->>user: Here is Apollo's weekly summary, I've also updated Notion.
+graph TD
+    user["User"] -->|"Summarize Apollo status"| claude["Claude"]
+    claude -->|"Fetch tasks"| airtable["Airtable"]
+    airtable -->|"Tasks data"| claude
+    claude -->|"Get notes"| notion["Notion"]
+    notion -->|"Notes content"| claude
+    claude -->|"Get insights"| qdrant["Qdrant"]
+    qdrant -->|"Memory insights"| claude
+    claude -->|"Save summary"| notion
+    notion -->|"Confirms update"| claude
+    claude -->|"Weekly summary"| user
 ```
 
 This illustrates how smoothly Claude coordinates your tools—giving you precise insights instantly.
