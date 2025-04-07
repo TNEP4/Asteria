@@ -8,12 +8,6 @@ Instead of manually navigating through scattered tools, Asteria guides you to or
 
 ---
 
-## ✨ Why "Asteria"?
-
-In Greek mythology, **Asteria** was the goddess of shooting stars and nighttime prophecy. Just as stars once guided explorers across the seas, **Asteria** guides you through the complex universe of your projects, tasks, knowledge, and insights—bringing clarity, organization, and efficiency.
-
----
-
 ## 🚀 Core Concept: Your Productivity Solar System
 
 Picture your productivity as a **personal solar system**, with each tool orbiting the central star—Claude:
@@ -41,11 +35,11 @@ Together, these components create a beautifully balanced productivity system, ea
 
 ```mermaid
 flowchart TD
-    user[👤 User (You)] -->|Natural Chat| Claude[☀️ Claude AI<br>(Desktop + MCP)]
-    Claude -->|MCP Integration| Notion[🌍 Notion<br>(Docs & Notes)]
-    Claude -->|MCP Integration| Airtable[🪐 Airtable<br>(Tasks & Data)]
-    Claude -->|MCP Integration| Qdrant[🌠 Qdrant<br>(Semantic Memory)]
-    Claude -->|MCP Integration| Brave[🌌 Brave Search<br>(Web Discovery)]
+    user[👤 User (You)] -->|Natural Chat| claude[☀️ Claude AI<br>(Desktop + MCP)]
+    claude -->|MCP Integration| notion[🌍 Notion<br>(Docs & Notes)]
+    claude -->|MCP Integration| airtable[🪐 Airtable<br>(Tasks & Data)]
+    claude -->|MCP Integration| qdrant[🌠 Qdrant<br>(Semantic Memory)]
+    claude -->|MCP Integration| brave[🌌 Brave Search<br>(Web Discovery)]
 ```
 
 In practice:
@@ -97,23 +91,23 @@ In practice:
 
 ```mermaid
 sequenceDiagram
-    participant User
-    participant Claude
-    participant Airtable
-    participant Notion
-    participant Qdrant
-    participant Brave
+    participant user as User
+    participant claude as Claude
+    participant airtable as Airtable
+    participant notion as Notion
+    participant qdrant as Qdrant
+    participant brave as Brave
 
-    User->>Claude: Summarize this week's status for Apollo project.
-    Claude->>Airtable: Fetch this week's tasks and their status.
-    Airtable-->>Claude: Provides tasks data.
-    Claude->>Notion: Retrieve recent project notes.
-    Notion-->>Claude: Provides project notes content.
-    Claude->>Qdrant: Retrieve related stored insights on Apollo.
-    Qdrant-->>Claude: Provides relevant memory insights.
-    Claude->>Notion: Save summarized weekly status.
-    Notion-->>Claude: Confirms update.
-    Claude-->>User: Here is Apollo's weekly summary, I've also updated Notion.
+    user->>claude: Summarize this week's status for Apollo project.
+    claude->>airtable: Fetch this week's tasks and their status.
+    airtable-->>claude: Provides tasks data.
+    claude->>notion: Retrieve recent project notes.
+    notion-->>claude: Provides project notes content.
+    claude->>qdrant: Retrieve related stored insights on Apollo.
+    qdrant-->>claude: Provides relevant memory insights.
+    claude->>notion: Save summarized weekly status.
+    notion-->>claude: Confirms update.
+    claude-->>user: Here is Apollo's weekly summary, I've also updated Notion.
 ```
 
 This illustrates how smoothly Claude coordinates your tools—giving you precise insights instantly.
@@ -170,24 +164,17 @@ Restart Claude Desktop and test integrations with simple commands (e.g., "create
 
 ---
 
-## ✨ Brand Identity: Navigating the Universe of Knowledge & Tasks
-
-**Asteria** isn't just about efficiency; it's about clarity and discovery—illuminating pathways through complexity and uncertainty, turning scattered stars of knowledge into structured constellations of productivity.
-
-**Visual Identity**:
-- 🌌 Stellar-themed visual metaphors
-- 🌠 Emphasis on guidance, illumination, and insight
-- 🪐 Icons and diagrams consistently use stellar concepts
-
-Use the stellar metaphors liberally—think of each new integration as adding a new planet or moon to your productivity solar system, each offering unique insights, gravitation, and orbits around your central intelligence star, Claude.
-
----
-
 ## 🌟 Community & Contributions
 
 Asteria is designed as an open methodology—encouraging adaptation, personalization, and contributions. Feel free to propose new systems, integrations, or open issues and discussions.
 
 Your personal productivity solar system awaits! Join us on the journey to make it brighter.
+
+---
+
+## ✨ Why "Asteria"?
+
+In Greek mythology, **Asteria** was the goddess of shooting stars and nighttime prophecy. Just as stars once guided explorers across the seas, **Asteria** guides you through the complex universe of your projects, tasks, knowledge, and insights—bringing clarity, organization, and efficiency.
 
 ---
 
