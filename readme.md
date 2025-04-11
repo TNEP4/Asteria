@@ -51,20 +51,20 @@ We evaluated major AI platforms as potential orchestrators:
 - 🟢 High-performance AI
 
 ### Notion AI
-- 🟠 Paid subscription (rate-limited)
-- 🟢 Internal DeepSearch
+- 🟠 Paid subscription
+- 🟠 Underperforming internal DeepSearch
 - 🔴 No external DeepSearch
 - 🔴 No MCP
 - 🟢 Full mobile access
 - 🔴 Underperforming AI
 
 ### Obsidian
-- 🟡 Paid subscription (cloud-based)
-- 🟢 Internal DeepSearch
+- 🟡 Paid subscription (for cloud hosting)
+- 🟡 Average internal DeepSearch
 - 🔴 No external DeepSearch
 - 🔴 No MCP
 - 🟢 Full mobile access
-- 🟡 Okay AI
+- 🟡 Average AI integration
 
 **Status**: We continue searching for a solution that integrates all three components effectively.
 
