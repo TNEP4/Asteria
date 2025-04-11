@@ -75,6 +75,8 @@ graph TD
     systems -->|"Data"| orchestrator
     internal -->|"Context"| orchestrator
     external -->|"Information"| orchestrator
+    internal -->|"Store Insights"| systems
+    external -->|"Store Discoveries"| systems
     orchestrator -->|"Complete Solution"| user
 ```
 
@@ -83,6 +85,7 @@ In this ideal system:
 - You communicate naturally with the AI orchestrator
 - The AI intelligently coordinates across your productivity tools
 - DeepSearch capabilities provide comprehensive context from both internal systems and the web
+- DeepSearch can directly store valuable insights and discoveries into your systems of record
 - All inputs are synthesized into coherent, actionable insights
 
 ---
