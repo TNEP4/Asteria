@@ -1,180 +1,108 @@
 # 🌌 Asteria – Your Stellar Productivity System
 
-**Asteria** is a productivity methodology that leverages AI and powerful productivity tools to create your own **personal solar system of knowledge**—helping you manage projects, tasks, research, and insights effortlessly.
+**Asteria** is a productivity methodology that seeks to create the perfect **personal knowledge system**—helping you manage projects, tasks, research, and insights effortlessly through the power of AI and integrated productivity tools.
 
-Instead of manually navigating through scattered tools, Asteria guides you to orchestrate everything seamlessly through Anthropic's Claude AI, powered by the Model Context Protocol (MCP). Think of Claude as your central **productivity star**, intelligently connected to productivity planets—**Notion**, **Airtable**, **Qdrant**, and **Brave Search**.
-
-✨ **With Asteria, your daily workflow becomes smoother, smarter, and brighter.**
+The vision is to create a seamless workflow where complex tasks become simpler through intelligent orchestration across your productivity toolkit.
 
 ---
 
-## 🚀 Core Concept: Your Productivity Solar System
+## 🚀 Core Philosophy: The Ideal Productivity System
 
-Picture your productivity as a **personal solar system**, with each tool orbiting the central star—Claude:
+Asteria envisions productivity as three essential components working in harmony:
 
-- ☀️ **Claude Desktop** *(Your Star)*  
-  Acts as the central intelligence and interaction point, providing guidance and orchestrating other tools seamlessly via the MCP framework.
+- 🧠 **AI Orchestrator**  
+  An intelligent central hub with MCP capabilities to coordinate actions across tools and services.
 
-- 🌍 **Notion** *(Document Planet)*  
-  Stores polished documents, notes, and structured knowledge accessible anytime and anywhere.
+- 🔍 **DeepSearch Capability**  
+  - **External**: Powerful web search integration for real-time information gathering
+  - **Internal**: Deep context-aware searching across your knowledge tools (Notion, Linear, etc.)
 
-- 🪐 **Airtable** *(Data Planet)*  
-  Manages tasks, projects, and structured data—keeping things orderly and actionable.
+- 📊 **Systems of Record**  
+  The best-in-class productivity tools for specific domains (Todoist, Notion, Linear, Attio)
 
-- 🌠 **Qdrant** *(Memory Comet)*  
-  Provides long-term semantic memory—storing and retrieving insights and context from past experiences.
-
-- 🌌 **Brave Search** *(Discovery Satellite)*  
-  Provides real-time web search capabilities—enabling up-to-date research and insights.
-
-Together, these components create a beautifully balanced productivity system, each tool complementing the other and revolving harmoniously around your central AI star—Claude.
+Together, these components would create an unparalleled productivity system—but as our research shows, the perfect combination remains elusive.
 
 ---
 
-## 🌠 How Does it Work? (High-Level)
+## 📋 Research Findings (April 10, 2025)
+
+We've evaluated several AI platforms as potential orchestrators, but none yet meets all our requirements:
+
+### Claude
+- 🟠 Requires paid subscription (rate-limited)
+- 🔴 No external DeepSearch functionality
+- 🔴 No internal DeepSearch functionality
+- 🟢 MCP easy to install and functional
+- 🟡 Partially mobile accessible
+- 🟢 High-performance AI
+
+### Cursor
+- 🟠 Requires paid subscription (rate-limited)
+- 🔴 No external DeepSearch functionality
+- 🔴 No internal DeepSearch functionality
+- 🟡 MCP harder to install
+- 🔴 Not mobile accessible
+- 🟢 High-performance AI
+
+### OpenAI
+- 🟠 Requires paid subscription (rate-limited)
+- 🟢 External DeepSearch functionality
+- 🔴 No internal DeepSearch functionality
+- 🟠 MCP not available yet (coming soon)
+- 🟡 Partially mobile accessible
+- 🟢 High-performance AI
+
+### Notion AI
+- 🟠 Requires paid subscription (rate-limited)
+- 🟢 Internal DeepSearch functionality
+- 🔴 No external DeepSearch functionality
+- 🔴 MCP not available
+- 🟢 Mobile accessible
+- 🔴 AI quality insufficient
+
+**Current Status**: We're still searching for the ideal solution that combines all three essential components effectively.
+
+---
+
+## 🌠 Ideal System Architecture
 
 ```mermaid
 graph TD
-    user["User (You)"] -->|"Natural Chat"| claude["Claude AI (Desktop + MCP)"]
-    claude -->|"MCP Integration"| notion["Notion (Docs & Notes)"]
-    claude -->|"MCP Integration"| airtable["Airtable (Tasks & Data)"]
-    claude -->|"MCP Integration"| qdrant["Qdrant (Semantic Memory)"]
-    claude -->|"MCP Integration"| brave["Brave Search (Web Discovery)"]
+    user["User (You)"] -->|"Natural Chat"| orchestrator["AI Orchestrator (with MCP)"]
+    orchestrator -->|"Integration"| systems["Systems of Record"]
+    orchestrator -->|"Integration"| internal["Internal DeepSearch"]
+    orchestrator -->|"Integration"| external["External DeepSearch"]
+    systems -->|"Data"| orchestrator
+    internal -->|"Context"| orchestrator
+    external -->|"Information"| orchestrator
+    orchestrator -->|"Complete Solution"| user
 ```
 
-In practice:
+In this ideal system:
 
-- You chat naturally with Claude, asking for help or making requests.
-- Claude intelligently calls on each tool as needed through MCP integrations.
-- Each tool provides specific assistance—writing docs, managing tasks, storing insights, or fetching information.
-- Claude synthesizes all inputs, presenting coherent responses or taking actions for you seamlessly.
-
----
-
-## 💫 Roadmap: Asteria Evolution
-
-### 🚀 Mark I – Current Constellation (Version 1)
-
-- **Claude Desktop**
-  - Central AI interface
-  - MCP client for orchestrating tools
-
-- **Notion Integration**
-  - Store and retrieve finalized documents
-  - Manage structured notes and project documentation
-
-- **Airtable Integration**
-  - Task & project management
-  - Create, query, update records and structured data
-
-- **Qdrant Integration**
-  - Long-term semantic memory storage
-  - Retrieve contextually relevant past information
-
-- **Brave Search Integration**
-  - Real-time web queries
-  - Up-to-date research and information discovery
-
-### 🚀 Mark II – Planned Constellations (Future Enhancements)
-
-- **Google Calendar**: AI-managed scheduling and event querying.
-- **Messaging Apps (Slack)**: Integrate messaging for collaborative productivity.
-- **Advanced Web Interaction (Puppeteer)**: Enhanced browsing and web automation.
-- **Email Integration**: Intelligent email management.
-- **Improved Task Reasoning**: Autonomous multi-step orchestration for complex workflows.
+- You communicate naturally with the AI orchestrator
+- The AI intelligently coordinates across your productivity tools
+- DeepSearch capabilities provide comprehensive context from both internal systems and the web
+- All inputs are synthesized into coherent, actionable insights
 
 ---
 
-## 🌌 Detailed Usage Examples (Illustrations)
+## 🌟 Join the Journey
 
-**📝 Example Scenario:** _"Summarize the status of the Apollo project this week."_
+The quest for the perfect productivity system continues. As the AI landscape evolves rapidly, we're constantly evaluating new solutions and approaches.
 
-```mermaid
-graph TD
-    user["User"] -->|"Summarize Apollo status"| claude["Claude"]
-    claude -->|"Fetch tasks"| airtable["Airtable"]
-    airtable -->|"Tasks data"| claude
-    claude -->|"Get notes"| notion["Notion"]
-    notion -->|"Notes content"| claude
-    claude -->|"Get insights"| qdrant["Qdrant"]
-    qdrant -->|"Memory insights"| claude
-    claude -->|"Save summary"| notion
-    notion -->|"Confirms update"| claude
-    claude -->|"Weekly summary"| user
-```
-
-This illustrates how smoothly Claude coordinates your tools—giving you precise insights instantly.
-
----
-
-## 🌠 Getting Started (macOS Setup)
-
-**Prerequisites**:
-- Install [Claude Desktop](https://claude.ai).
-- Ensure Node.js (16+) is installed ([nodejs.org](https://nodejs.org)).
-
-**Set Up Integrations**:
-- **Notion**: [Create integration](https://developers.notion.com/docs/create-a-notion-integration).
-- **Airtable**: [Generate personal access token](https://airtable.com/api).
-- **Qdrant Cloud**: [Create a free instance](https://cloud.qdrant.io).
-- **Brave Search**: [Get a Brave API Key](https://brave.com/search-api).
-
-**Configure Claude Desktop** (use `claude_desktop_config.json`):
-```json
-{
-  "mcpServers": {
-    "notion": {
-      "command": "npx",
-      "args": ["-y", "@suekou/mcp-notion-server"],
-      "env": { "NOTION_API_TOKEN": "YOUR_TOKEN" }
-    },
-    "airtable": {
-      "command": "npx",
-      "args": ["-y", "airtable-mcp-server"],
-      "env": { "AIRTABLE_API_KEY": "YOUR_TOKEN" }
-    },
-    "qdrant": {
-      "command": "npx",
-      "args": ["-y", "@mcpservers/ragdocs"],
-      "env": {
-        "QDRANT_URL": "YOUR_URL",
-        "QDRANT_API_KEY": "YOUR_KEY",
-        "COLLECTION_NAME": "asteria_memories"
-      }
-    },
-    "brave-search": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
-      "env": { "BRAVE_API_KEY": "YOUR_KEY" }
-    }
-  }
-}
-```
-
-*(Replace placeholders with your actual API keys.)*
-
-Restart Claude Desktop and test integrations with simple commands (e.g., "create a test Notion page" or "list Airtable tasks") to confirm setup.
-
----
-
-## 🌟 Community & Contributions
-
-Asteria is designed as an open methodology—encouraging adaptation, personalization, and contributions. Feel free to propose new systems, integrations, or open issues and discussions.
-
-Your personal productivity solar system awaits! Join us on the journey to make it brighter.
+Feel free to propose ideas, contribute findings, or share your own productivity system architecture as we work toward the ideal Asteria implementation.
 
 ---
 
 ## ✨ Why "Asteria"?
 
-In Greek mythology, **Asteria** was the goddess of shooting stars and nighttime prophecy. Just as stars once guided explorers across the seas, **Asteria** guides you through the complex universe of your projects, tasks, knowledge, and insights—bringing clarity, organization, and efficiency.
+In Greek mythology, **Asteria** was the goddess of shooting stars and nighttime prophecy. Just as stars once guided explorers across the seas, **Asteria** represents our quest to navigate the complex universe of productivity tools and AI capabilities—bringing clarity, organization, and efficiency to our digital lives.
 
 ---
 
 ## 🚀 License
 
-Asteria is available under the [MIT License](LICENSE)—empowering you to freely adapt, evolve, and share your stellar productivity journey.
+Asteria is available under the [MIT License](LICENSE)—empowering you to freely adapt, evolve, and share your productivity journey.
 
----
-
-**Let your productivity shine bright with Asteria!** ✨
+--
