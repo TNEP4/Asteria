@@ -58,6 +58,14 @@ We evaluated major AI platforms as potential orchestrators:
 - 🟢 Full mobile access
 - 🔴 Underperforming AI
 
+### Obsidian
+- 🟡 Paid subscription (cloud-based)
+- 🟢 Internal DeepSearch
+- 🔴 No external DeepSearch
+- 🔴 No MCP
+- 🟢 Full mobile access
+- 🟡 Okay AI
+
 **Status**: We continue searching for a solution that integrates all three components effectively.
 
 ---
